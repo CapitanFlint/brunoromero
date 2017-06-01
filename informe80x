@@ -1,0 +1,28 @@
+Laboratorio 8
+Bruno Romero
+----
+#### Procedimiento general
+
+### Páginas webs visitadas:
+
++ https://www.ncbi.nlm.nih.gov/protein/291191294?report=genbank&log$=prottop&blast_rank=1&RID=JYRF5V5Y015 Página de donde saqué el archivo pdb.
++ Se utilizó la proteína homóloga con mayor porcentaje de identidad(87%).
+
++ Estructura cristalografiada se obtuvo de http://www.rcsb.org/pdb/explore/explore.do?structureId=3LRX
+
+---- 
+
+### Determinación del mejor modelo
+
+_R:_ 
++ El mejor modelo fue el que estaba encriptado en el archivo 'target 5', debido a que su puntaje DOPE fue el más bajo. Luego, el más alto fue el 'target 3'.
+
++ Estos dos target se comapraron en el programa VMD, y se diferenciaron las torsiones estructurales en el modelo espacial, tal como se representa en
+la imagen.
+
++ 'target 5' representa al color rojo, y consecuentemente, 'target 3' al color amarillo.
+
++ Notamos que las diferencias se encuentran principalmente en los dominios terminal de los modelos proteicos, es decir, Carboxilo y Amino. Por otra parte,
+los dominios interiores son conservados, indicando o suguiriendo que la función principal de la proteína se encuentra relacionada con esa región.
+
+![target](https://github.com/CapitanFlint/brunoromero/blob/master/Comparacion%20target%203%20con%205.png)
